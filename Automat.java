@@ -1,3 +1,7 @@
+//individual enam files
+public enum State {Success,Error,Q1,Q2,Q3,Q4,Initial}
+public enum Event {Digit, Sharp, Percent, Multiplication, UpperLetter, EOS, ANY}
+//class Automat
 public class Automat extends FSM {
     private Event event;
 
